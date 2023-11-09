@@ -16,7 +16,7 @@ while (true){
         nivel = "Bronze";
     } else if (xp >= 2001 && xp <= 5000) {
         nivel = "Prata";
-    } else if (xp >= 5001 && xp <= 7000) {
+    } else if (xp >= 6001 && xp <= 7000) {
         nivel = "Ouro";
     } else if (xp >= 7001 && xp <= 8000) {
         nivel = "Platina";
@@ -30,7 +30,7 @@ while (true){
 
     //possiveis saidas
     if (nomeHeroi !== "" && xp !== 0)
-        console.log(`O Herói: ${nomeHeroi}, está no nível: ${nivel}.`);
+        console.log(`O Herói de nome: ${nomeHeroi}, está no nível de: ${nivel}.`);
     else
         console.log(`Você precisa informar o nome do herói e seu xp para verificar o nível.`);
 
